@@ -1,1 +1,44 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js" integrity="sha512-UgS0SVyy/0fZ0i48Rr7gKpnP+Jio3oC7M4XaKP3BJUB/guN6Zr4BjU0Hsle0ey2HJvPLHE5YQCXTDrx27Lhe7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.velocity.js" integrity="sha512-mKt2D7Wdg3XxhA1KJzP2SJ75ZZSMtQUc+lXFSIasI1j2CoaZHbP2Ei61I5D9nDLUH22xdRFM0pZYcLOWloAoIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<div class="spacer s0"></div>
+<div id="animate" class="box1 blue">
+	<p>
+		Down to resize.<br>
+		Right to rotate.
+	</p>
+	<a href="#" class="viewsource">view source</a>
+</div>
+<script>
+	$(function () { // wait for document ready
+		// init controller
+		var controller = new ScrollMagic.Controller();
+
+		// build tween
+		var tween = TweenMax.to("#animate", 0.5, {scale: 3, ease: Linear.easeNone});
+
+		// build scene
+		var scene = new ScrollMagic.Scene({triggerElement: "#multiDirect", duration: 400, offset: 250})
+						.setTween(tween)
+						.setPin("#animate")
+						.addIndicators({name: "resize"}) // add indicators (requires plugin)
+						.addTo(controller);
+
+		// init controller horizontal
+		var controller_h = new ScrollMagic.Controller({vertical: false});
+
+		// build tween horizontal
+		var tween_h = TweenMax.to("#animate", 0.5, {rotation: 360, ease: Linear.easeNone});
+
+		// build scene
+		var scene_h = new ScrollMagic.Scene({duration: 700})
+						.setTween(tween_h)
+						.setPin("#animate")
+						.addIndicators({name: "rotate"}) // add indicators (requires plugin)
+						.addTo(controller_h);
+	});
+</script>
