@@ -1,0 +1,470 @@
+.blocky-bg-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f90;
+  width: 90rem;
+  height: 88.06rem;
+}
+.group-child,
+.group-child1,
+.group-inner,
+.group-item,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  background-color: #64bdff;
+  width: 1.94rem;
+  height: 88.06rem;
+}
+.group-child {
+  left: 0;
+}
+.group-child1,
+.group-inner,
+.group-item,
+.rectangle-div {
+  left: 11.63rem;
+}
+.group-child1,
+.group-inner,
+.rectangle-div {
+  left: 23.25rem;
+}
+.group-child1,
+.rectangle-div {
+  left: 34.88rem;
+}
+.group-child1 {
+  left: 46.5rem;
+}
+.group-child2,
+.group-child3,
+.group-child4,
+.group-child5,
+.group-child6,
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 58.13rem;
+  background-color: #64bdff;
+  width: 1.94rem;
+  height: 88.06rem;
+}
+.group-child3,
+.group-child4,
+.group-child5,
+.group-child6,
+.group-child7 {
+  left: 69.75rem;
+}
+.group-child4,
+.group-child5,
+.group-child6,
+.group-child7 {
+  left: 3.88rem;
+}
+.group-child5,
+.group-child6,
+.group-child7 {
+  left: 15.5rem;
+}
+.group-child6,
+.group-child7 {
+  left: 27.13rem;
+}
+.group-child7 {
+  left: 38.75rem;
+}
+.group-child10,
+.group-child11,
+.group-child12,
+.group-child13,
+.group-child8,
+.group-child9 {
+  position: absolute;
+  top: 0;
+  left: 50.38rem;
+  background-color: #64bdff;
+  width: 1.94rem;
+  height: 88.06rem;
+}
+.group-child10,
+.group-child11,
+.group-child12,
+.group-child13,
+.group-child9 {
+  left: 62rem;
+}
+.group-child10,
+.group-child11,
+.group-child12,
+.group-child13 {
+  left: 73.63rem;
+}
+.group-child11,
+.group-child12,
+.group-child13 {
+  left: 7.75rem;
+}
+.group-child12,
+.group-child13 {
+  left: 19.38rem;
+}
+.group-child13 {
+  left: 31rem;
+}
+.group-child14,
+.group-child15,
+.group-child16,
+.group-child17,
+.group-child18,
+.group-child19 {
+  position: absolute;
+  top: 0;
+  left: 42.63rem;
+  background-color: #64bdff;
+  width: 1.94rem;
+  height: 88.06rem;
+}
+.group-child15,
+.group-child16,
+.group-child17,
+.group-child18,
+.group-child19 {
+  left: 54.25rem;
+}
+.group-child16,
+.group-child17,
+.group-child18,
+.group-child19 {
+  left: 65.88rem;
+}
+.group-child17,
+.group-child18,
+.group-child19 {
+  left: 77.5rem;
+}
+.group-child18,
+.group-child19 {
+  left: 81.38rem;
+}
+.group-child19 {
+  left: 85.25rem;
+}
+.blocky-bg,
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 1.44rem;
+  width: 87.19rem;
+  height: 88.06rem;
+}
+.blocky-bg {
+  left: 0.13rem;
+  width: 90rem;
+  overflow: hidden;
+}
+.blocky-icon {
+  position: absolute;
+  top: calc(50% - 270px);
+  left: calc(50% - 198.5px);
+  width: 24.94rem;
+  height: 33.75rem;
+  object-fit: cover;
+}
+.mid-blocky,
+.right-blocky {
+  border-radius: 62px;
+  border: 8px solid #ffe500;
+  box-sizing: border-box;
+  width: 25.19rem;
+  height: 33.75rem;
+}
+.mid-blocky {
+  position: absolute;
+  top: calc(50% - 271px);
+  left: calc(50% - 200px);
+  overflow: hidden;
+}
+.right-blocky {
+  top: calc(50% - 270px);
+  left: calc(50% + 266px);
+}
+.left-blocky,
+.mid-blocky-parent,
+.right-blocky {
+  position: absolute;
+  overflow: hidden;
+}
+.left-blocky {
+  top: calc(50% - 271px);
+  left: calc(50% - 665px);
+  border-radius: 62px;
+  border: 8px solid #ffe500;
+  box-sizing: border-box;
+  width: 25.19rem;
+  height: 33.75rem;
+}
+.mid-blocky-parent {
+  top: 44.06rem;
+  left: calc(50% - 720px);
+  width: 90rem;
+  height: 33.88rem;
+}
+.blocky-bg-parent {
+  position: absolute;
+  top: calc(50% - 1207px);
+  left: -0.12rem;
+  width: 90.13rem;
+  height: 88.06rem;
+  overflow: hidden;
+}
+.animation-scroll-icon {
+  position: absolute;
+  top: calc(50% - 720px);
+  left: 0;
+  width: 90rem;
+  height: 90rem;
+  object-fit: cover;
+}
+.heey-animation-child,
+.intro-animation {
+  position: absolute;
+  left: calc(50% - 720px);
+  width: 90rem;
+}
+.intro-animation {
+  top: 0;
+  height: 90rem;
+  overflow: hidden;
+}
+.heey-animation-child {
+  top: calc(50% - 231.5px);
+  background-color: #64bdff;
+  height: 28.94rem;
+}
+.slide-1-icon,
+.slide-2-icon,
+.slide-3-icon,
+.slide-4-icon {
+  position: absolute;
+  top: 0;
+  width: 22.5rem;
+  height: 9.38rem;
+  object-fit: cover;
+}
+.slide-1-icon {
+  left: 0;
+}
+.slide-2-icon,
+.slide-3-icon,
+.slide-4-icon {
+  left: 22.5rem;
+}
+.slide-3-icon,
+.slide-4-icon {
+  left: 45rem;
+}
+.slide-4-icon {
+  left: 67.5rem;
+}
+.slide-1-group,
+.slide-1-parent {
+  left: calc(50% - 720px);
+  height: 9.38rem;
+}
+.slide-1-parent {
+  position: absolute;
+  top: calc(50% + 57.5px);
+  width: 90rem;
+  overflow: hidden;
+}
+.slide-1-group {
+  top: calc(50% - 208.5px);
+}
+.heey-animation,
+.slide-1-container,
+.slide-1-group {
+  position: absolute;
+  width: 90rem;
+  overflow: hidden;
+}
+.slide-1-container {
+  top: calc(50% - 75.5px);
+  left: calc(50% - 720px);
+  height: 9.38rem;
+}
+.heey-animation {
+  top: calc(50% + 165px);
+  left: 0;
+  border-top: 9px solid #ffe500;
+  border-bottom: 9px solid #ffe500;
+  box-sizing: border-box;
+  height: 28.94rem;
+}
+.click {
+  margin: 0;
+}
+.e {
+  letter-spacing: 1.19em;
+}
+.click-me,
+.icon {
+  position: absolute;
+}
+.click-me {
+  top: calc(50% - 350.5px);
+  left: calc(50% - 142px);
+  line-height: 20.41rem;
+  display: inline-block;
+  width: 42.25rem;
+  height: 40.81rem;
+}
+.icon {
+  top: 7.13rem;
+  left: 7rem;
+  width: 45.63rem;
+  height: 45.63rem;
+  object-fit: cover;
+}
+.click-me-parent {
+  position: absolute;
+  top: calc(50% + 628px);
+  left: 0;
+  background: linear-gradient(0deg, #0f6, #ff89fa 48.15%, #db00ff);
+  width: 90rem;
+  height: 58.06rem;
+  overflow: hidden;
+  text-align: right;
+  font-size: 28.13rem;
+  color: #fff;
+  font-family: Handjet;
+}
+.frame-child,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 60.56rem;
+  background-color: #64bdff;
+  width: 7.5rem;
+  height: 7.56rem;
+}
+.frame-child {
+  left: 0;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-inner,
+.frame-item {
+  left: 30rem;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-inner {
+  left: 60rem;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  left: 7.5rem;
+  background-color: #ffe500;
+}
+.frame-child2,
+.frame-child3 {
+  left: 37.5rem;
+}
+.frame-child3 {
+  left: 67.5rem;
+}
+.frame-child4,
+.frame-child5,
+.frame-child6,
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  position: absolute;
+  top: 60.56rem;
+  left: 15rem;
+  background-color: #2c9f2a;
+  width: 7.5rem;
+  height: 7.56rem;
+}
+.frame-child5,
+.frame-child6,
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  left: 45rem;
+}
+.frame-child6,
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  left: 75rem;
+}
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  left: 22.5rem;
+  background-color: #f90;
+}
+.frame-child8,
+.frame-child9 {
+  left: 52.5rem;
+}
+.frame-child9 {
+  left: 82.5rem;
+}
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 74.75rem;
+  height: 74.75rem;
+  object-fit: cover;
+}
+.frame-child10 {
+  position: absolute;
+  top: 2.31rem;
+  left: 1.38rem;
+  border-radius: 20px;
+  background-color: #ff004d;
+  width: 1.88rem;
+  height: 29.38rem;
+}
+.frame-child11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #9eff00;
+  width: 4.63rem;
+  height: 4.63rem;
+}
+.rectangle-container {
+  position: absolute;
+  top: 15.13rem;
+  left: 25.38rem;
+  width: 4.63rem;
+  height: 31.69rem;
+}
+.rectangle-group {
+  position: absolute;
+  top: calc(50% + 1557px);
+  left: 0;
+  width: 90rem;
+  height: 68.13rem;
+  overflow: hidden;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 330.88rem;
+  overflow: hidden;
+}
