@@ -171,10 +171,6 @@
   right: 42.57%;
   bottom: -5.66%;
   left: 16.74%;
-  background-image: url(./public/00481@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   z-index: 1;
 }
 .click-me-parent,
