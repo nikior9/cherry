@@ -3,15 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap"
     />
   </head>
+  <script>
+    // init controller
+    var controller = new ScrollMagic.Controller();
+  </script>
   <body>
     <div class="desktop-1">
+
+
+      <div class="spacer s2"></div>
+<div id="trigger2" class="spacer s0"></div>
+<div id="pin2" class="box2 blue">
+	<video class="video" autoplay loop>
+            <source src="./public/spin.webm" type="video/webm"/>
+          </video>
+</div>
+<div class="spacer s2"></div>
+<script>
+	$(function () { // wait for document ready
+		// build scene
+		var scene = new ScrollMagic.Scene({triggerElement: "#pin2"})
+						.setPin("#pin2")
+						.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+						.addTo(controller);
+	});
+</script>
+
       <div class="frame">
         <div class="blocky-bg-parent">
           <video class="intro-animation" autoplay loop>
