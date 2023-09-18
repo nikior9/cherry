@@ -16,6 +16,7 @@
     var controller = new ScrollMagic.Controller();
   </script>
   <body>
+    <div class="content">
     <div id="trigger2" class="desktop-1">
       <div class="frame">
         <div class="blocky-bg-parent">
@@ -151,7 +152,10 @@
           </div>
         </div>
       </section>
+    
+    
     </div>
+  </div>
     <div class="video-container">
       <video id="scrollingVideo" src="./public/spin.webm" type="video/webm" autoplay loop muted></video>
   </div>
@@ -159,7 +163,6 @@
 
 
 
-// script.js
 window.addEventListener("scroll", function() {
     const video = document.getElementById("scrollingVideo");
     const videoContainer = document.querySelector(".video-container");
@@ -167,14 +170,11 @@ window.addEventListener("scroll", function() {
     // Calculate the vertical center position of the window
     const windowHeight = window.innerHeight;
     const videoHeight = videoContainer.clientHeight;
-    const centerY = (windowHeight - videoHeight) / 1.5;
+    const centerY = (windowHeight - videoHeight) / 2.3;
 
-    // Calculate the position of the video relative to the scroll position
+    // Adjust the vertical position of the video based on the scroll position and center it
     const scrollY = window.scrollY || window.pageYOffset;
-    const videoPosition = scrollY - centerY;
-
-    // Adjust the vertical position of the video container
-    videoContainer.style.top = videoPosition + "px";
+    videoContainer.style.top = centerY + scrollY + "px";
 });
 
 

@@ -1,3 +1,22 @@
+.content {
+  margin-top: 500px; /* Adjust this value to create space for the video */
+  padding: 20px;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  height: 100%; /* Set the width and height of your video */
+  z-index: 10;
+}
+
+
+
+
+
+
 .intro-animation {
   align-self: stretch;
   overflow: hidden;
@@ -324,11 +343,3 @@
   }
 }
 
-.video-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  justify-content: center;
-  height: 100%; /* Set the width and height of your video */
-  z-index: 10;
-}
