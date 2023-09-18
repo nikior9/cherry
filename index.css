@@ -150,7 +150,7 @@
 }
 .frame,
 .heey-animation {
-  overflow: hidden;
+  overflow: visible;
 }
 .heey-animation {
   border-top: 9px solid #ffe500;
