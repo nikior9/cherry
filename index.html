@@ -158,6 +158,8 @@
   <script>
 
 
+
+// script.js
 window.addEventListener("scroll", function() {
     const video = document.getElementById("scrollingVideo");
     const videoContainer = document.querySelector(".video-container");
@@ -167,10 +169,15 @@ window.addEventListener("scroll", function() {
     const videoHeight = videoContainer.clientHeight;
     const centerY = (windowHeight - videoHeight) / 2;
 
-    // Adjust the vertical position of the video based on the scroll position and center it
+    // Calculate the position of the video relative to the scroll position
     const scrollY = window.scrollY || window.pageYOffset;
-    videoContainer.style.top = centerY + scrollY + "px";
+    const videoPosition = scrollY - centerY;
+
+    // Adjust the vertical position of the video container
+    videoContainer.style.top = videoPosition + "px";
 });
+
+
 
   </script>
 
