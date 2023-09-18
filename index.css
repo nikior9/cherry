@@ -254,6 +254,7 @@
 }
 .rectangle-container {
   align-self: stretch;
+  width: 100%;
   flex-direction: row;
 }
 .frame2 {
