@@ -328,6 +328,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%; /* Set the width and height of your video */
+  justify-content: center;
+  height: 100%; /* Set the width and height of your video */
   z-index: 10;
 }
