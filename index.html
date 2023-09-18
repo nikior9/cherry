@@ -16,22 +16,9 @@
     var controller = new ScrollMagic.Controller();
   </script>
   <body>
-   
-
-
-
+    <div id="trigger2" class="desktop-1">
       <div class="frame">
         <div class="blocky-bg-parent">
-          <div id="trigger2" class="desktop-1">
-
-
-      
-
-            <div id="pin2">
-              <video class="video" autoplay loop>
-                        <source src="./public/spin.webm" type="video/webm"/>
-                      </video>
-            </div>
           <video class="intro-animation" autoplay loop>
             <source src="./public/fluiddrop.mp4" />
           </video>
@@ -165,16 +152,20 @@
         </div>
       </section>
     </div>
-  </body>
-
+    <div class="video-container">
+      <video id="scrollingVideo" src="./public/spin.webm" type="video/webm" autoplay loop muted></video>
+  </div>
   <script>
-    $(function () { // wait for document ready
-      // build scene
-      var scene = new ScrollMagic.Scene({triggerElement: "#pin2"})
-              .setPin("#pin2")
-              .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
-              .addTo(controller);
-    });
+
+window.addEventListener("scroll", function() {
+    const video = document.getElementById("scrollingVideo");
+    const videoContainer = document.querySelector(".video-container");
+
+    // Adjust the vertical position of the video based on the scroll position
+    const scrollY = window.scrollY || window.pageYOffset;
+    videoContainer.style.top = scrollY + "px";
+});
   </script>
-  
+
+  </body>
 </html>
