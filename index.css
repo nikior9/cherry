@@ -1,44 +1,14 @@
-.content {
-  margin-block-end: 0; /* Adjust this value to create space for the video */
-  padding: 20px;
-}
-
-.video-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  justify-content: center;
-  height: 100%; /* Set the width and height of your video */
-  z-index: 10;
-}
-
-
-
-
-
-
 .intro-animation {
-  align-self: stretch;
   overflow: hidden;
   background-image: url(./public/introanimation@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  width: 100%;
 }
-.frame-child {
-  flex: 1;
+.blocky-background-icon {
   position: relative;
-  background-color: #64bdff;
-  height: 88.06em;
-}
-.rectangle-parent {
   width: 87.19em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1.94em;
+  height: 88.06em;
 }
 .blocky-bg,
 .blocky-icon {
@@ -48,51 +18,33 @@
 .blocky-bg {
   background-color: #f90;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 .blocky-icon {
   flex: 1;
   position: relative;
+  border-radius: 60px;
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
 }
-.left-blocky,
-.mid-blocky {
-  flex: 1;
-  border-radius: 62px;
-  border: 8px solid #ffe500;
-  padding: 0 0.06em;
-  justify-content: center;
-}
-.left-blocky {
-  align-self: stretch;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.mid-blocky {
-  flex-direction: row;
-}
 .blocky-bg-parent,
-.left-blocky-parent,
-.mid-blocky {
+.blocky-parent {
   align-self: stretch;
   overflow: hidden;
   display: flex;
   align-items: center;
 }
-.left-blocky-parent {
-  height: 55.13em;
+.blocky-parent {
+  height: 39.94em;
   flex-shrink: 0;
   flex-direction: row;
-  padding: 10.38em 1.25em 11em;
+  padding: 2.69em 1.88em 4em;
   box-sizing: border-box;
-  justify-content: flex-end;
-  gap: 2.81em;
+  justify-content: center;
+  gap: 2.69em;
   margin-top: -63.94em;
 }
 .blocky-bg-parent {
@@ -100,68 +52,13 @@
   justify-content: flex-start;
 }
 .slide-1 {
+  align-self: stretch;
   position: relative;
-  width: 22.5em;
-  height: 9.38em;
+  height: 18.69em;
   background-image: url(./public/slide1@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-}
-.slide-1-container,
-.slide-1-group,
-.slide-1-parent {
-  align-self: stretch;
-  margin: 0 !important;
-  position: absolute;
-  width: 100%;
-  top: calc(50% - 208.5px);
-  right: 0;
-  left: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 0;
-}
-.slide-1-container,
-.slide-1-group {
-  top: calc(50% - 74.5px);
-  z-index: 1;
-}
-.slide-1-container {
-  top: calc(50% + 60.5px);
-  z-index: 2;
-}
-.frame,
-.frame-parent,
-.heey-animation {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.frame-parent {
-  background-color: #64bdff;
-  justify-content: center;
-  position: relative;
-  gap: 0.63em;
-}
-.frame,
-.heey-animation {
-  overflow: visible;
-}
-.heey-animation {
-  border-top: 9px solid #ffe500;
-  border-bottom: 9px solid #ffe500;
-  justify-content: center;
-  margin-top: -2.31em;
-}
-.frame {
-  height: 204.69em;
-  flex-shrink: 0;
-  justify-content: flex-start;
 }
 .click {
   margin: 0;
@@ -191,155 +88,170 @@
   right: 42.57%;
   bottom: -5.66%;
   left: 16.74%;
+  background-image: url(./public/00481@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   z-index: 1;
 }
 .click-me-parent,
 .desktop-1-inner {
-  align-self: stretch;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .click-me-parent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 426.88px);
+  left: calc(50% - 720px);
+  width: 90em;
   flex-direction: row;
-  padding: 0 7.19em 0 6.06em;
-  position: relative;
+  flex-wrap: wrap;
+  padding: 8.38em 7.19em 6.31em 6.06em;
+  box-sizing: border-box;
+  z-index: 0;
 }
 .desktop-1-inner {
-  background: linear-gradient(0deg, #0f6, #ff89fa 48.15%, #db00ff);
-  height: 52.5em;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-child20,
-.frame-child21 {
-  position: relative;
-  background-color: #9eff00;
-  width: 4.63em;
-  height: 4.63em;
-}
-.frame-child21 {
-  border-radius: 20px;
-  background-color: #ff004d;
-  width: 1.88em;
-  height: 29.38em;
-  margin-top: -2.31em;
-}
-.frame3,
-.rectangle-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.rectangle-group {
-  width: 4.63em;
-  height: 31.69em;
-  padding: 0 30.44em 0 0;
-  box-sizing: border-box;
-}
-.frame3 {
   align-self: stretch;
-  overflow: hidden;
+  flex: 1;
+  background: linear-gradient(0deg, #0f6, #ff89fa 48.15%, #db00ff);
+  flex-direction: column;
+  position: relative;
 }
-.frame-child22 {
+.frame-child,
+.frame-inner,
+.frame-item,
+.rectangle-div {
+  align-self: stretch;
   flex: 1;
   position: relative;
   background-color: #64bdff;
-  height: 7.56em;
 }
-.frame-child23,
-.frame-child24,
-.frame-child25 {
-  flex: 1;
-  position: relative;
+.frame-inner,
+.frame-item,
+.rectangle-div {
   background-color: #ffe500;
-  height: 7.56em;
 }
-.frame-child24,
-.frame-child25 {
+.frame-inner,
+.rectangle-div {
   background-color: #2c9f2a;
 }
-.frame-child25 {
+.rectangle-div {
   background-color: #f90;
 }
-.frame2,
-.rectangle-container {
+.bottom-cubes,
+.rectangle-parent {
   display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: flex-start;
-}
-.rectangle-container {
-  align-self: stretch;
-  width: 100%;
   flex-direction: row;
+  justify-content: center;
 }
-.frame2 {
-  position: absolute;
-  top: 15.13em;
-  left: 0;
-  width: 90em;
-  overflow: hidden;
-  flex-direction: column;
-  gap: 13.75em;
-}
-.frame5 {
+.rectangle-parent {
   align-self: stretch;
-  height: 74.75em;
+  flex: 1;
+  align-items: center;
+}
+.bottom-cubes {
+  bottom: -0.03em;
+  left: calc(50% - 720px);
+  width: 90em;
+  height: 9em;
+  align-items: flex-end;
+  z-index: 0;
+}
+.bottom-cubes,
+.frame-child10,
+.frame-child9 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frame-child9 {
+  top: 0.5em;
+  left: 21.41em;
+  background-color: #9eff00;
+  width: 2.19em;
+  height: 26.31em;
+  z-index: 0;
+}
+.frame-child10 {
+  top: calc(50% - 180.5px);
+  left: 17em;
+  border-radius: 20px;
+  background-color: #ff004d;
+  width: 1.88em;
+  height: 11em;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.frame,
+.icon {
   overflow: hidden;
+}
+.frame {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 260.75px);
+  left: 0;
+  width: 45em;
+  height: 27.31em;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 .icon {
+  align-self: stretch;
+  flex: 1;
   position: relative;
-  width: 78.75em;
-  height: 64.56em;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
-.frame4,
-.frame6 {
-  overflow: hidden;
+.deflate,
+.desktop-1,
+.frame1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
-.frame6 {
-  padding: 3.44em 13.69em 3.44em 0;
-  margin-top: -74.75em;
-}
-.frame4 {
+.frame1 {
+  margin: 0 !important;
   position: absolute;
-  top: -3.31em;
-  left: 0;
-  width: 100%;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 90em;
+  height: 73.88em;
+  padding: 0 17.38em 0 16.44em;
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 2;
 }
 .deflate,
 .desktop-1 {
   position: relative;
-  overflow: hidden;
 }
 .deflate {
   align-self: stretch;
-  height: 68.13em;
-  flex-shrink: 0;
+  height: 61.97em;
+  justify-content: center;
 }
 .desktop-1 {
   background-color: #fff;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 320.69em;
+  overflow: hidden;
   justify-content: flex-start;
-  gap: 0.19em;
 }
 @media screen and (max-width: 420px) {
-  .left-blocky-parent {
+  .blocky-parent {
     flex-direction: row;
     gap: 2.81em;
     align-items: center;
     justify-content: center;
   }
 }
-
