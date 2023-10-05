@@ -1,6 +1,7 @@
 .intro-animation {
   overflow: hidden;
   width: 100%;
+  height: auto;
   background-image: url(./public/introanimation@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
