@@ -219,12 +219,10 @@
   align-items: center;
 }
 .frame1 {
-  margin: 0 !important;
-  position: absolute;
+  position: relative;
   top: 0;
-  left: 50%;
-  width: 90em;
-  height: 73.88em;
+  width: auto;
+  height: 100%;
   padding: 0 17.38em 0 16.44em;
   box-sizing: border-box;
   justify-content: center;
