@@ -2,11 +2,19 @@
   overflow: hidden;
   width: 100%;
   height: auto;
-  background-image: url(./public/introanimation@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+ 
 }
+
+#set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .blocky-background-icon {
   position: relative;
   width: 100%;
