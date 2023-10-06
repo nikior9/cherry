@@ -54,11 +54,8 @@
 .slide-1 {
   align-self: stretch;
   position: relative;
-  height: 18.69em;
-  background-image: url(./public/slide1@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  width: 100%;
+  
 }
 .click {
   margin: 0;
