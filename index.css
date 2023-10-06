@@ -38,13 +38,12 @@
   align-items: center;
 }
 .blocky-parent {
-  height: 70%;
+  height: auto;
   flex-shrink: 0;
   flex-direction: row;
-  padding: 5%;
+  padding: 2%;
   box-sizing: border-box;
   justify-content: center;
-  gap: 2%;
   margin-top: -63.94em;
 }
 .blocky-bg-parent {
