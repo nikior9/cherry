@@ -7,7 +7,6 @@
 .intro-animation {
   overflow: hidden;
   width: 100%;
- z-index: 0;
 }
 
 #set-height {
@@ -50,6 +49,7 @@
   align-self: stretch;
   overflow: hidden;
   display: flex;
+  background-color: #f90;
   align-items: center;
 }
 .blocky-parent {
@@ -57,12 +57,14 @@
   flex-shrink: 0;
   flex-direction: row;
   padding: 2%;
+  background-color: #f90;
   box-sizing: border-box;
   justify-content: center;
   margin-top: -63.94em;
 }
 .blocky-bg-parent {
   flex-direction: column;
+  background-color: #f90;
   justify-content: flex-start;
 }
 .slide-1 {
