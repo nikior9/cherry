@@ -76,6 +76,12 @@
           </div>
         </div>
         <div class="frame">
+
+          <div class="range-slider">
+            <input class="input-range" orient="vertical" type="range" step="0.5" value="5" min="1" max="10">
+            <span class="range-value"></span>
+        </div> 
+
           <div class="frame-child9"></div>
           <div class="frame-child10"></div>
         </div>
@@ -92,10 +98,10 @@
   </body>
 
 <script>
-  
+
 var frameNumber = 0, // start video at frame 0
   // lower numbers = faster playback
-  playbackConst = 500, 
+  playbackConst = 300, 
   // get page height from video duration
   setHeight = document.getElementById("set-height"), 
   // select video element         
@@ -114,6 +120,16 @@ window.requestAnimationFrame(scrollPlay);
 }
 
 window.requestAnimationFrame(scrollPlay);
+
+
+var range = $('.input-range'),
+    value = $('.range-value');
+    
+value.html(range.attr('value'));
+
+range.on('input', function(){
+    value.html(this.value);
+}); 
 
 </script>
 
