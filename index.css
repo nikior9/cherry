@@ -293,7 +293,7 @@ input::-moz-focus-inner {
 @media screen and (max-width: 420px) {
   .blocky-parent {
     flex-direction: row;
-    gap: 2.81em;
+    gap: 0em;
     align-items: center;
     justify-content: center;
   }
