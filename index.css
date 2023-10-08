@@ -112,7 +112,7 @@
 }
 .click-me-parent {
   margin: 0 !important;
-  position: relative;
+  position: absolute;
   top: calc(50% - 426.88px);
   left: calc(50% - 720px);
   width: 90em;
