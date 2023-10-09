@@ -67,6 +67,12 @@
   background-color: #f90;
   justify-content: flex-start;
 }
+
+.slidingtext {
+
+width: 100%;
+
+}
 .slide-1 {
   align-self: stretch;
   position: relative;
@@ -112,8 +118,7 @@
 }
 .click-me-parent {
   margin: 0 !important;
-  position: absolute;
-  top: calc(50% - 426.88px);
+  position: relative;
   left: calc(50% - 720px);
   width: 90em;
   flex-direction: row;
@@ -227,6 +232,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+
 
 
 * {
