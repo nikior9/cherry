@@ -111,7 +111,7 @@ width: 100%;
 }
 .click-me-parent,
 .desktop-1-inner {
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   align-items: center;
   justify-content: center;
